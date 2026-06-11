@@ -1,7 +1,7 @@
 # ARD connectors
 
 Client-side connectors that let a chatbot **discover agentic resources** — tools,
-skills, MCP servers, agents, and APIs — by searching [ARD](https://ards.io)
+skills, MCP servers, agents, and APIs — by searching [ARD](https://agentresourcediscovery.io)
 discovery services such as **Agent Finder**.
 
 These connectors are **client-side only**. The discovery service (e.g. Agent
@@ -29,8 +29,8 @@ is installed automatically:
 This repo is a Claude Code plugin marketplace. Install the skill with:
 
 ```
-/plugin marketplace add ardp-project/connectors
-/plugin install find-agentic-resources@ardp-connectors
+/plugin marketplace add agentresourcediscovery/connectors
+/plugin install find-agentic-resources@ard-connectors
 ```
 
 Custom skills are currently Claude Code–only (not the claude.ai web app or

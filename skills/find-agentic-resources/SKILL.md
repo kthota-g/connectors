@@ -66,8 +66,8 @@ API) using the resource's own endpoint and protocol. Then stop and let them act.
 **Claude Code (recommended)** — add this repo as a plugin marketplace and install:
 
 ```
-/plugin marketplace add ardp-project/connectors
-/plugin install find-agentic-resources@ardp-connectors
+/plugin marketplace add agentresourcediscovery/connectors
+/plugin install find-agentic-resources@ard-connectors
 ```
 
 **Manual** — copy this `find-agentic-resources/` folder into your Claude Code
