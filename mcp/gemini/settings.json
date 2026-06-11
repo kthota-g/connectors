@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "agent-finder": {
+      "httpUrl": "https://finder.nlweb.ai/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agent-finder": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://finder.nlweb.ai/mcp"]
+    }
+  }
+}

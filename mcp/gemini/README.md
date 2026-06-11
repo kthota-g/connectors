@@ -1,0 +1,35 @@
+# Google Gemini — Agent Finder via remote MCP
+
+MCP works in **Gemini CLI** and the **Gemini API**, not the consumer Gemini app.
+
+> Replace `https://finder.nlweb.ai/mcp` with your Agent Finder's MCP endpoint.
+
+## Gemini CLI
+
+Add the server to your Gemini CLI `settings.json` (see `settings.json` here):
+
+```json
+{
+  "mcpServers": {
+    "agent-finder": {
+      "httpUrl": "https://finder.nlweb.ai/mcp"
+    }
+  }
+}
+```
+
+Use `httpUrl` for a Streamable-HTTP server, `url` for SSE, or `command`/`args`
+for a local/stdio server. Restart the CLI; the Agent Finder search tool is then
+available. Pair with the Gem instructions in `../../skills/gemini/` so it asks
+first and never auto-installs.
+
+## Gemini API
+
+The Python and JavaScript SDKs can connect to remote MCP servers directly, or you
+can expose `POST /search` as a function/tool. See the Gemini API MCP docs.
+
+## Consumer Gemini app
+
+The Gemini app does not support custom MCP servers yet. Use the Gem
+(`../../skills/gemini/`) for the behavior, but run actual searches via the CLI or
+API above.
