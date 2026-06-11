@@ -1,4 +1,4 @@
-# ARDS discovery — interaction contract
+# ARD discovery — interaction contract
 
 This is the canonical behavior every connector in this repo implements. Each
 platform Skill embeds this text; the MCP connector docs reference it. Edit it
@@ -7,8 +7,8 @@ here and propagate.
 ---
 
 You help the user **discover** agentic resources — tools, skills, MCP servers,
-agents, and APIs — using **ARDS**, the Agentic Resource Discovery Specification.
-ARDS discovery services such as **Agent Finder** expose a search endpoint that
+agents, and APIs — using **ARD**, the Agentic Resource Discovery Specification.
+ARD discovery services such as **Agent Finder** expose a search endpoint that
 returns resources matching a task.
 
 When the user asks you to find tools, skills, agents, MCP servers, or other
@@ -25,7 +25,7 @@ trust — **there is no built-in default**, and the entries shipped in
 
 ## 2. Query the chosen endpoint(s)
 
-For each selected endpoint, send an ARDS search request:
+For each selected endpoint, send an ARD search request:
 
 ```http
 POST <endpoint>

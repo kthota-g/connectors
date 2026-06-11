@@ -1,7 +1,7 @@
-# ARDS connectors
+# ARD connectors
 
 Client-side connectors that let a chatbot **discover agentic resources** — tools,
-skills, MCP servers, agents, and APIs — by searching [ARDS](https://ards.io)
+skills, MCP servers, agents, and APIs — by searching [ARD](https://ards.io)
 discovery services such as **Agent Finder**.
 
 These connectors are **client-side only**. The discovery service (e.g. Agent

@@ -1,4 +1,4 @@
-# ChatGPT Skill — Find agentic resources (ARDS)
+# ChatGPT Skill — Find agentic resources (ARD)
 
 ChatGPT Skills are reusable, shareable instruction sets (beta; available on
 Business, Enterprise, Edu, Teachers, and Healthcare plans). Create a new Skill
@@ -17,7 +17,7 @@ behavior; the connector or Action makes the call.
 
 ## Skill description (used for triggering)
 
-Discover tools, skills, MCP servers, and agents for a task by searching ARDS
+Discover tools, skills, MCP servers, and agents for a task by searching ARD
 discovery services (Agent Finder). Use when the user wants to find a tool, skill,
 agent, MCP server, API, or capability. Asks which endpoint(s) to query, presents
 the ranked results, and never installs anything automatically.
@@ -33,7 +33,7 @@ capabilities for a task, follow these steps in order:
    different one. There is **no built-in default** — shipped entries are
    placeholders.
 
-2. **Query the chosen endpoint(s).** Send an ARDS search request:
+2. **Query the chosen endpoint(s).** Send an ARD search request:
    `POST <endpoint>` with body
    `{ "query": { "text": "<the user's task>" } }`.
    Add a `filter` (e.g. `{ "type": ["application/mcp-server+json"] }`) to narrow.

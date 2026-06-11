@@ -1,4 +1,4 @@
-# Google Gemini — Find agentic resources (ARDS)
+# Google Gemini — Find agentic resources (ARD)
 
 Gemini's equivalent of a Skill is a **Gem** (custom instructions). Create a new
 Gem and paste the body below.

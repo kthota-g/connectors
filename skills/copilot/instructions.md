@@ -1,4 +1,4 @@
-# Microsoft Copilot — Find agentic resources (ARDS)
+# Microsoft Copilot — Find agentic resources (ARD)
 
 Copilot doesn't use "Skills" by that name. The equivalent is a **declarative
 agent** (Microsoft 365 Copilot / Copilot Studio) or **custom instructions** for
@@ -19,7 +19,7 @@ to call the Agent Finder endpoint:
 
 ## Agent description
 
-Discover tools, skills, MCP servers, and agents for a task by searching ARDS
+Discover tools, skills, MCP servers, and agents for a task by searching ARD
 discovery services (Agent Finder). Asks which endpoint(s) to query, presents the
 ranked results, and never installs anything automatically.
 
