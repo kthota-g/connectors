@@ -4,7 +4,7 @@ ChatGPT supports **remote MCP servers only** (HTTPS, Streamable HTTP / SSE),
 through **Developer mode**. The Agent Finder is the MCP server.
 
 > Requires a plan with Developer mode (currently Plus, Pro, Business, Enterprise,
-> Education). Replace `https://finder.nlweb.ai/mcp` with your Agent Finder's MCP
+> Education). Replace `https://agent-finder.example.org/mcp` with your Agent Finder's MCP
 > endpoint.
 
 ## Add the connector
@@ -12,7 +12,7 @@ through **Developer mode**. The Agent Finder is the MCP server.
 1. **Settings → Apps → Advanced settings → Developer mode** (enable it).
 2. **Create app** next to Advanced settings.
 3. Name it `Agent Finder` and paste the **remote MCP URL**
-   (`https://finder.nlweb.ai/mcp`).
+   (`https://agent-finder.example.org/mcp`).
 4. Choose authentication — **No authentication** for an open Agent Finder, or
    **OAuth** if it requires sign-in.
 5. Save. The Agent Finder's search tool is now available in chat.

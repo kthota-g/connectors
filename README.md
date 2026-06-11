@@ -46,6 +46,9 @@ is installed automatically:
 
 ## Endpoints
 
-Connectors are endpoint-agnostic — supply your own Agent Finder URL(s). The
-examples use the public `https://finder.nlweb.ai` (`/search` for REST, `/mcp` for
-the MCP interface). Replace these with whatever discovery service you trust.
+There is **no built-in default** Agent Finder. You choose which discovery
+services to trust by editing [`agent-finders.json`](agent-finders.json) — a list
+of endpoints the connector presents and asks you to pick from. The shipped
+entries (`*.example.org`, `*.internal.example`) are placeholders; replace them
+with real discovery services. The connector never queries an endpoint you didn't
+choose, and never auto-installs what it finds.

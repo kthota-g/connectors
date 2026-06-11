@@ -24,9 +24,9 @@ Follow this contract exactly:
 ## 1. Ask first — never query silently
 
 Do not call any endpoint yet. Ask the user **which Agent Finder endpoint(s)** to
-search. If endpoints are already configured, list them and ask the user to
-confirm or change the selection. A public example endpoint is
-`https://finder.nlweb.ai/search`.
+search. Present the options from the user's `agent-finders.json` list (from the
+connectors repository) and let them pick, confirm, or supply a different one.
+There is **no built-in default** — the shipped entries are placeholders.
 
 ## 2. Query the chosen endpoint(s)
 

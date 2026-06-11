@@ -2,7 +2,7 @@
 
 MCP works in **Gemini CLI** and the **Gemini API**, not the consumer Gemini app.
 
-> Replace `https://finder.nlweb.ai/mcp` with your Agent Finder's MCP endpoint.
+> Replace `https://agent-finder.example.org/mcp` with your Agent Finder's MCP endpoint.
 
 ## Gemini CLI
 
@@ -12,7 +12,7 @@ Add the server to your Gemini CLI `settings.json` (see `settings.json` here):
 {
   "mcpServers": {
     "agent-finder": {
-      "httpUrl": "https://finder.nlweb.ai/mcp"
+      "httpUrl": "https://agent-finder.example.org/mcp"
     }
   }
 }

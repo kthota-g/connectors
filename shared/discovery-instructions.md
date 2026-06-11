@@ -17,9 +17,11 @@ capabilities for a task, follow these steps **in order**:
 ## 1. Ask first — never query silently
 
 Do not call any endpoint yet. Ask the user **which Agent Finder endpoint(s)**
-they want to search. If endpoints are already configured, list them and ask the
-user to confirm or change the selection. A public example endpoint is
-`https://finder.nlweb.ai/search`.
+they want to search. Present the options listed in
+[`agent-finders.json`](../agent-finders.json) and let the user pick, confirm, or
+supply a different one. These are discovery services the user has chosen to
+trust — **there is no built-in default**, and the entries shipped in
+`agent-finders.json` are placeholders to be replaced.
 
 ## 2. Query the chosen endpoint(s)
 

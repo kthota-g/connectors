@@ -2,7 +2,7 @@
 
 Copilot connects to **remote MCP servers** (Streamable transport). Two surfaces:
 
-> Replace `https://finder.nlweb.ai/mcp` with your Agent Finder's MCP endpoint.
+> Replace `https://agent-finder.example.org/mcp` with your Agent Finder's MCP endpoint.
 
 ## Microsoft 365 Copilot / Copilot Studio
 
@@ -24,7 +24,7 @@ Add the server to your workspace `.vscode/mcp.json` (see `mcp.json` here):
   "servers": {
     "agent-finder": {
       "type": "http",
-      "url": "https://finder.nlweb.ai/mcp"
+      "url": "https://agent-finder.example.org/mcp"
     }
   }
 }

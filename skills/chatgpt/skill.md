@@ -28,8 +28,10 @@ When the user asks you to find tools, skills, agents, MCP servers, or other
 capabilities for a task, follow these steps in order:
 
 1. **Ask first — never query silently.** Ask the user which Agent Finder
-   endpoint(s) to search. If endpoints are configured, list them and let the user
-   confirm or change. Example: `https://finder.nlweb.ai/search`.
+   endpoint(s) to search. Present the options from the user's `agent-finders.json`
+   list (from the connectors repository) and let them pick, confirm, or supply a
+   different one. There is **no built-in default** — shipped entries are
+   placeholders.
 
 2. **Query the chosen endpoint(s).** Send an ARDS search request:
    `POST <endpoint>` with body
