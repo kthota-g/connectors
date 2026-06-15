@@ -2,7 +2,8 @@
 
 Copilot connects to **remote MCP servers** (Streamable transport). Two surfaces:
 
-> Replace `https://agent-finder.example.org/mcp` with your Agent Finder's MCP endpoint.
+> **Default endpoint:** GitHub's Agent Finder at `http://agentfinder.github.com`.
+> To use a different discovery service, replace that URL.
 
 ## Microsoft 365 Copilot / Copilot Studio
 
@@ -24,7 +25,7 @@ Add the server to your workspace `.vscode/mcp.json` (see `mcp.json` here):
   "servers": {
     "agent-finder": {
       "type": "http",
-      "url": "https://agent-finder.example.org/mcp"
+      "url": "http://agentfinder.github.com"
     }
   }
 }
