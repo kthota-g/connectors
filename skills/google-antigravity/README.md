@@ -19,7 +19,7 @@ Note: Antigravity CLI also supports Agent Skills. Refer [Antigravity CLI documen
 
 Create the `SKILL.md` file with the following content:
 
-```yaml
+````yaml
 ---
 name: find-agentic-resources
 description: >-
@@ -79,4 +79,5 @@ yourself. Installation is always the user's explicit choice.
 Once the user picks a result, give them the steps to install or connect **that**
 resource themselves (add it as an MCP connector, install the skill, or call its
 API) using the resource's own endpoint and protocol. Then stop and let them act.
-```
+
+````
